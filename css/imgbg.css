@@ -1,4 +1,7 @@
-
+.theme_bg
+{
+background-color:#fff;
+}
 @media (min-width: 400px) {
 .theme_bg
 {

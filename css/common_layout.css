@@ -39,6 +39,7 @@ body {
 	overflow:hidden;
 	font-size:13px;
 	word-wrap: break-word;
+	cursor:pointer;
 }
 
 .no_data{
@@ -55,19 +56,17 @@ body {
 }
 a.item{
 
-   /* background-image: url("../images/icon_bg.png");*/
-	background-repeat:no-repeat;
-	background-size:100% 100%;
+    background:none repeat scroll 0 0 #113D84;
     display: table-cell;
     height: 70px;
     text-align: center;
     vertical-align: middle;
     width: 70px;
-	color:#fff !important;
+	color:#333 !important;
 
 }
 .app_feature_list a,.app_feature_list label{
-	color:#fff;
+	color:#333;
 	text-decoration:none;
 }
 .logo{
@@ -78,11 +77,13 @@ a.item{
 }
 .white_wrap .app_feature_list label{
 	height:auto;
-	cursor:pointer;
 }
 .app_feature_list a{
-	color:#fff !important;
+	color:#031d32 !important;
 	text-decoration:none;
 	outline:none;
 	cursor:pointer;
+}
+.app_feature_list label{
+		padding-top:6px;
 }

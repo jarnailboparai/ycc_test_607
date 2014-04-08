@@ -2,23 +2,27 @@
 
 .theme_bg{
 
-	background:#a6250f;
+	background-image:url(../images/main_bg.jpg);
+
+	background-position:center bottom;
+
+	background-repeat:no-repeat;
 
 	min-width:320px;
 
-	background-size:100%;
+	background-color:#fff;
 
-	background-position:center center;
+	background-size: auto 100%;
 
 }
 
 .logo{
 
-	padding-top:28%;
-
 	transition:all ease .3s;
 
 	margin: 0 auto;
+
+	padding-top: 28%;
 
 }
 
@@ -56,11 +60,11 @@
 
 .ui-header{
 
-	background:url(../images/header_bg.png)  !important;
+	background:#dce1e5 !important;
 
 	border:none !important;
 
-	
+	background-size:auto 100% !important;
 
 }
 
@@ -74,11 +78,13 @@
 
 	text-shadow:none !important;
 
-	color:#fff !important;
+	color:#0A2654 !important;
 
-	font-size:24px;
+	font-family:Arial, Helvetica, sans-serif;
 
-	font-weight:normal;
+	font-weight:bold;
+
+	font-size:26px;
 
 	margin:0 23%;
 
@@ -139,6 +145,8 @@
 	max-width:32px;
 
 }
+
+
 
 @media (min-width: 400px) {
 .theme_bg

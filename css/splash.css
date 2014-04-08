@@ -17,12 +17,12 @@
 	position:absolute;
 	height:100% !important;
 	max-height:400px;
-	background:url(../images/title_bg.png);
+	background:url(../images/frame_bg.png);
 	padding:1%;
 	width:98% !important;
 }
 .location_address{
-	color:#fff;
+	color:#333;
 	font-size:14px;
 	line-height:20px;
 	text-align:justify;
@@ -36,7 +36,7 @@
 	margin:5px;
 }
 .contact_details{
-	color:#fff;
+	color:#333;
 	text-shadow:none;
 }
 

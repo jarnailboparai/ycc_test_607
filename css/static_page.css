@@ -11,11 +11,11 @@
 	padding:3%;
 	/*width: 91%;*/
 	word-wrap: break-word;
-	color:#fff;
+	color:#333;
 	text-shadow:none;
 }
 .staticpage_content p{
-	color:#fff;
+	color:#333;
 	font-size:14px;
 	line-height:20px;
 	text-align:justify;
@@ -40,7 +40,7 @@
 	background:none;
 	border-color:#ddd;
 }
-.staticPageList .ui-btn:hover,.staticPageList .ui-btn:focus,.staticPageList .ui-btn:active{
+.staticPageList .ui-btn:hover,.staticPageList .ui-btn:focus,.staticPageList .ui-btn:active,.staticPageList .ui-btn{
 	background:url(../images/title_bg.png) !important;
 	box-shadow:none;
 }
@@ -53,7 +53,6 @@
 	border-radius:0px;
 }
 .staticPageList .ui-btn{
-	color:#fff !important;
 	text-shadow:none !important;
 }
 /* Social Media Page Setting Ends Here */
