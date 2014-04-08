@@ -1,18 +1,14 @@
-body,body.ui-overlay-a{
 
-	background:url("../images/repeat_bg.jpg") repeat-y scroll 0 0 rgba(0, 0, 0, 0) !important;
-
-	background-size:100% 100% !important;
-
-}
 
 .theme_bg{
 
-	background:url(../images/theme_background.jpg) center bottom no-repeat;
+	background:#22a201;
 
 	min-width:320px;
 
 	background-size:100% ;
+
+	background-position: center center;
 
 }
 
@@ -50,23 +46,29 @@ body,body.ui-overlay-a{
 
 	display:table-cell;
 
-	background:url(../images/icon_bg.png) no-repeat;
+	/*background:url(../images/icon_bg.png) no-repeat;*/
 
 	vertical-align:middle;
 
 	text-align:center;
 
-	background-size:100% 100%;
-
 }
 
 .ui-header{
 
-	background:url(../images/header_bg.png) !important;
+	background:#22a201 !important;
 
 	border:none !important;
 
+	border-bottom:1px solid #209602 !important;
+
 	
+
+}
+
+.ui-header a{
+
+	box-shadow:none;
 
 }
 
@@ -80,7 +82,7 @@ body,body.ui-overlay-a{
 
 	font-weight:normal;
 
-	margin:0 25%;
+	margin:0 23%;
 
 }
 
@@ -140,8 +142,6 @@ body,body.ui-overlay-a{
 
 }
 
-
-
 @media (min-width: 400px) {
 .theme_bg
 {
@@ -158,3 +158,7 @@ body,body.ui-overlay-a{
 	background-size:cover;	
 }
 }
+
+
+
+
