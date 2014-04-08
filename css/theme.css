@@ -142,15 +142,19 @@ body,body.ui-overlay-a{
 
 
 
+@media (min-width: 400px) {
 .theme_bg
 {
-	background-image:none;
+	background-image:url(../images/app607land.jpg) ;
 	background-repeat:no-repeat;
 	background-size:cover;	
-	background: radial-gradient(center , circle cover , rgb(234, 199, 199) , rgb(0, 0, 0) 80%);
-background: -o-radial-gradient(center , circle cover , rgb(234, 199, 199) , rgb(0, 0, 0) 80%);
-background: -ms-radial-gradient(center , circle cover , rgb(234, 199, 199) , rgb(0, 0, 0) 80%);
-background: -moz-radial-gradient(center , circle cover , rgb(234, 199, 199) , rgb(0, 0, 0) 80%);
-background: -webkit-radial-gradient(center , circle cover , rgb(234, 199, 199) , rgb(0, 0, 0) 80%);
 }
-
+}
+@media (min-width: 100px) and (max-width: 399px) {
+.theme_bg
+{
+	background-image:url(../images/app607port.jpg) ;
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+}
