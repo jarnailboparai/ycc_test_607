@@ -2,13 +2,13 @@
 
 .theme_bg{
 
-	background:#22a201;
+	background:#a6250f;
 
 	min-width:320px;
 
-	background-size:100% ;
+	background-size:100%;
 
-	background-position: center center;
+	background-position:center center;
 
 }
 
@@ -56,11 +56,9 @@
 
 .ui-header{
 
-	background:#22a201 !important;
+	background:url(../images/header_bg.png)  !important;
 
 	border:none !important;
-
-	border-bottom:1px solid #209602 !important;
 
 	
 
